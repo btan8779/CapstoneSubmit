@@ -1,0 +1,1 @@
+The 5 experiments were implemented by the 2DModel, 3DModel, and 3DModel_refine.2DModel is for the spectral constraint experiment, 3DModel is for the 2D&3D input experiment. All other experiments were implemented by the code in 3DModel_refine. If you want to run the code, please modify the config document with yaml format to change the path to your dataset.

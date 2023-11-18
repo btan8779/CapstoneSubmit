@@ -1,0 +1,67 @@
+# #training device
+# device: cuda
+#path to the checkpoint file containinf the refine model
+refine_model_path: '/mnt/HDD3/btan8779/checkpoint/final_result/2D/without_spect/refine_best_checkpoint.pytorch'
+#  '/mnt/HDD3/btan8779/checkpoint/10_5/2D/sub_set/all/no_spectrum_only_tensor_4_decayafter30_50epoches/refine_best_checkpoint.pytorch'
+#'D:\CapstoneData\test_dataset\Data_h5\only_tensor_4_decayafter50/refine_best_checkpoint.pytorch'
+# '/mnt/HDD3/btan8779/CapstoneData/test_3d/3d_ARGAN_try/refine_best_checkpoint.pytorch'
+# '/mnt/HDD3/btan8779/checkpoint/9_26/3D/3d_ARGAN_try/refine_best_checkpoint.pytorch'
+#refine model configuration
+refine_model:
+  # model class, e.g. UNet3D, ResidualUNet3D
+  name: ARNet
+   # number of input channels to the model
+  in_channels: 1
+  # number of output channels
+  out_channels: 1
+# path to the checkpoint file containing the model
+model_path: '/mnt/HDD3/btan8779/checkpoint/final_result/2D/without_spect/best_checkpoint.pytorch'
+#  '/mnt/HDD3/btan8779/checkpoint/10_5/2D/sub_set/all/no_spectrum_only_tensor_4_decayafter30_50epoches/best_checkpoint.pytorch'
+# '/mnt/HDD3/btan8779/CapstoneData/test_3d/3d_ARGAN_try/best_checkpoint.pytorch'
+# model configuration
+model:
+  # model class, e.g. UNet3D, ResidualUNet3D
+  name: PreNet
+  # number of input channels to the model
+  in_channels: 1
+  # number of output channels
+  out_channels: 1
+
+
+predictor:
+  # standard in memory predictor
+  name: 'StandardPredictor'
+# specify the test datasets
+loaders:
+  # batch dimension; if number of GPUs is N > 1, then a batch_size of N * batch_size will automatically be taken for DataParallel
+  batch_size: 1
+  # mirror pad the raw data in each axis for sharper prediction near the boundaries of the volume
+  mirror_padding: [1,32, 32]
+  # path to the raw data within the H5
+  raw_internal_path: raw
+  # path to the preliminary results
+  # how many subprocesses to use for data loading
+  num_workers: 2
+  # save path of output
+  dataset: AbstractHDF5Dataset #H5Dataset
+  output_dir: '/mnt/HDD3/btan8779/TEST_OUTPUT/final/2d_without_spectrum'
+#  '/mnt/HDD3/btan8779/TEST_OUTPUT/10-6/2D/res_refine/all_drf/best_train_no_Specturm'
+#  'D:\CapstoneData\test_dataset\Data_h5\ouput/'
+  test:
+    # paths to the test datasets; if a given path is a directory all H5 files ('*.h5', '*.hdf', '*.hdf5', '*.hd5')
+    # inside this this directory will be included as well (non-recursively)
+    file_paths:
+      - '/mnt/HDD3/btan8779/CapstoneData/dataset_100/3D/3d_all/test/'
+#      -  '/mnt/HDD3/btan8779/CapstoneData/2d_subset_drf/drf/test'
+#      - '/mnt/HDD3/btan8779/CapstoneData/test_d/test/'
+#     - 'D:\CapstoneData\test_dataset\Data_h5\test/'
+    #SliceBuilder configuration, i.e. how to iterate over the inp/media/mingjian/NewVolume/DATA_Jane/low_to_high_PET/Dmixed_datasetut volume patch-by-patch
+    slice_builder:
+     # SliceBuilder class
+      name: SliceBuilder
+     # train patch size given to the network (adapt to fit in your GPU mem, generally the bigger patch the better)
+      patch_shape: [1, 256, 256]
+     # train stride between patches
+      stride_shape: [1, 256, 256]
+
+    transformer: test_3d_transform

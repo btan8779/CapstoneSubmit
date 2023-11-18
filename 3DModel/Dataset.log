@@ -1,0 +1,920 @@
+2023-09-27 12:25:04,354 [MainThread] INFO Dataset - dataset length is12
+2023-09-27 12:44:44,422 [MainThread] INFO Dataset - dataset length is12
+2023-09-27 14:02:09,257 [MainThread] INFO Dataset - dataset length is12
+2023-09-27 14:07:37,844 [MainThread] INFO Dataset - dataset length is12
+2023-09-27 16:54:12,031 [MainThread] INFO Dataset - dataset length is12
+2023-09-28 03:15:31,955 [MainThread] INFO Dataset - dataset length is2
+2023-09-28 03:26:40,060 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 14:43:19,112 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 14:54:28,895 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 14:56:57,105 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 15:18:00,873 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 15:58:55,246 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 16:09:28,258 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 16:15:45,539 [MainThread] INFO Dataset - dataset length is2
+2023-10-01 23:57:28,923 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-01 23:57:28,927 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 316, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-01 23:57:28,935 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-01 23:57:28,939 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 316, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:12:41,182 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:12:41,185 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 316, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:12:41,215 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:12:41,219 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 316, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:14:07,198 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:14:07,199 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 317, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:14:07,208 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:14:07,209 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 317, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:16:59,672 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:16:59,673 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 317, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:16:59,688 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:16:59,690 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 317, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 162, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 265, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:19:49,408 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:19:49,409 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 319, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 163, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 267, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:19:49,415 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:19:49,416 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 319, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 163, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 267, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:25:29,945 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:25:29,945 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:25:29,961 [MainThread] INFO Dataset - get input file from {file_path}
+2023-10-02 12:25:29,964 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 165, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 224, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:25:29,995 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:25:29,996 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:25:30,012 [MainThread] INFO Dataset - get input file from {file_path}
+2023-10-02 12:25:30,013 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 165, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 224, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:26:40,724 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:26:40,728 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:26:40,732 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:26:40,734 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 325, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 225, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:26:40,746 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:26:40,747 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:26:40,748 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:26:40,750 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 325, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 225, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:27:31,836 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:27:31,837 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:27:31,838 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:27:31,841 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 326, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:27:31,849 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:27:31,850 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:27:31,851 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:27:31,853 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 326, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:39:28,707 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:39:28,708 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:39:28,710 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:39:28,713 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:39:28,724 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:39:28,725 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:39:28,727 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:39:28,730 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:42:10,756 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:42:10,758 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:42:10,759 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 271, in create_h5_file
+    data = input_file.copy()
+TypeError: Group.copy() missing 2 required positional arguments: 'source' and 'dest'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 163, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 274, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:42:10,768 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:42:10,769 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:42:10,771 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 271, in create_h5_file
+    data = input_file.copy()
+TypeError: Group.copy() missing 2 required positional arguments: 'source' and 'dest'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 163, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 274, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:42:41,674 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:42:41,675 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:42:41,677 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 271, in create_h5_file
+    data = input_file.detach()
+AttributeError: 'File' object has no attribute 'detach'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 163, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 274, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:42:41,687 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:42:41,689 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:42:41,690 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 271, in create_h5_file
+    data = input_file.detach()
+AttributeError: 'File' object has no attribute 'detach'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 163, in __init__
+    input_file = self.create_h5_file(file_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 274, in create_h5_file
+    raise NotImplementedError
+NotImplementedError
+2023-10-02 12:43:35,623 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:43:35,625 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:43:35,627 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:43:35,629 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:43:35,636 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:43:35,636 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:43:35,637 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:43:35,638 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 166, in __init__
+    self.raw = self.fetch_and_check(input_file, raw_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 357, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+ValueError: Invalid location identifier (invalid location identifier)
+2023-10-02 12:45:55,836 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:45:55,837 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:45:55,847 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:45:56,758 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 194, in __init__
+    self.weight_map = self.fetch_and_check(input_file, weight_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 359, in __getitem__
+    raise TypeError("Accessing a group is done with bytes or str, "
+TypeError: Accessing a group is done with bytes or str, not <class 'NoneType'>
+2023-10-02 12:45:56,803 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:45:56,804 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:45:56,806 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:45:57,749 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 194, in __init__
+    self.weight_map = self.fetch_and_check(input_file, weight_internal_path)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 226, in fetch_and_check
+    ds = input_file[internal_path][:]
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python\lib\site-packages\h5py\_hl\group.py", line 359, in __getitem__
+    raise TypeError("Accessing a group is done with bytes or str, "
+TypeError: Accessing a group is done with bytes or str, not <class 'NoneType'>
+2023-10-02 12:49:38,833 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:49:38,834 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:49:38,836 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:49:39,971 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 336, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 219, in __init__
+    self.weight_map = np.pad(self.weight_map, pad_width=pad_width, mode='reflect')
+  File "<__array_function__ internals>", line 180, in pad
+  File "D:\Python\lib\site-packages\numpy\lib\arraypad.py", line 743, in pad
+    pad_width = _as_pairs(pad_width, array.ndim, as_index=True)
+  File "D:\Python\lib\site-packages\numpy\lib\arraypad.py", line 518, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+  File "<__array_function__ internals>", line 180, in broadcast_to
+  File "D:\Python\lib\site-packages\numpy\lib\stride_tricks.py", line 413, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "D:\Python\lib\site-packages\numpy\lib\stride_tricks.py", line 349, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (3,2)  and requested shape (0,2)
+2023-10-02 12:49:40,075 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:49:40,077 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:49:40,079 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:49:41,386 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 336, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 219, in __init__
+    self.weight_map = np.pad(self.weight_map, pad_width=pad_width, mode='reflect')
+  File "<__array_function__ internals>", line 180, in pad
+  File "D:\Python\lib\site-packages\numpy\lib\arraypad.py", line 743, in pad
+    pad_width = _as_pairs(pad_width, array.ndim, as_index=True)
+  File "D:\Python\lib\site-packages\numpy\lib\arraypad.py", line 518, in _as_pairs
+    return np.broadcast_to(x, (ndim, 2)).tolist()
+  File "<__array_function__ internals>", line 180, in broadcast_to
+  File "D:\Python\lib\site-packages\numpy\lib\stride_tricks.py", line 413, in broadcast_to
+    return _broadcast_to(array, shape, subok=subok, readonly=True)
+  File "D:\Python\lib\site-packages\numpy\lib\stride_tricks.py", line 349, in _broadcast_to
+    it = np.nditer(
+ValueError: operands could not be broadcast together with remapped shapes [original->remapped]: (3,2)  and requested shape (0,2)
+2023-10-02 12:52:05,076 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:52:05,077 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:52:05,079 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:52:06,368 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 340, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 222, in __init__
+    self.prediction = np.pad(self.prediction, pad_width=pad_width, mode='reflect')
+AttributeError: 'AbstractHDF5Dataset' object has no attribute 'prediction'
+2023-10-02 12:52:06,422 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:52:06,423 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:52:06,425 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:52:07,517 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 340, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 222, in __init__
+    self.prediction = np.pad(self.prediction, pad_width=pad_width, mode='reflect')
+AttributeError: 'AbstractHDF5Dataset' object has no attribute 'prediction'
+2023-10-02 12:53:34,720 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 12:53:34,721 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:53:34,723 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 12:53:35,742 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 340, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 227, in __init__
+    slice_builder = get_slice_builder(self.raw, self.label, self.weight_map, slice_builder_config)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 109, in get_slice_builder
+    slice_builder_cls = get_loader_classes(config['name'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 116, in get_loader_classes
+    return get_class(class_name, modules)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\model\Model.py", line 177, in get_class
+    raise RuntimeError(f'Unsupported dataset class: {class_name}')
+RuntimeError: Unsupported dataset class: SliceBuilder
+2023-10-02 12:53:35,767 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 12:53:35,768 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 12:53:35,769 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 12:53:36,452 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 340, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 227, in __init__
+    slice_builder = get_slice_builder(self.raw, self.label, self.weight_map, slice_builder_config)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 109, in get_slice_builder
+    slice_builder_cls = get_loader_classes(config['name'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 116, in get_loader_classes
+    return get_class(class_name, modules)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\model\Model.py", line 177, in get_class
+    raise RuntimeError(f'Unsupported dataset class: {class_name}')
+RuntimeError: Unsupported dataset class: SliceBuilder
+2023-10-02 13:09:18,010 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:09:18,012 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:09:18,014 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:09:19,596 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 340, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 227, in __init__
+    slice_builder = get_slice_builder(self.raw, self.label, self.weight_map, slice_builder_config)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 109, in get_slice_builder
+    slice_builder_cls = get_loader_classes(config['name'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 118, in get_loader_classes
+    return get_class(class_name, modules)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\model\Model.py", line 177, in get_class
+    raise RuntimeError(f'Unsupported dataset class: {class_name}')
+RuntimeError: Unsupported dataset class: SliceBuilder
+2023-10-02 13:09:19,677 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:09:19,679 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:09:19,680 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:09:21,084 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 340, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 227, in __init__
+    slice_builder = get_slice_builder(self.raw, self.label, self.weight_map, slice_builder_config)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 109, in get_slice_builder
+    slice_builder_cls = get_loader_classes(config['name'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 118, in get_loader_classes
+    return get_class(class_name, modules)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\model\Model.py", line 177, in get_class
+    raise RuntimeError(f'Unsupported dataset class: {class_name}')
+RuntimeError: Unsupported dataset class: SliceBuilder
+2023-10-02 13:11:47,478 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:11:47,482 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:11:47,485 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:11:48,614 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 342, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 228, in __init__
+    slice_builder = get_slice_builder(self.raw, self.label, self.weight_map, slice_builder_config)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 109, in get_slice_builder
+    slice_builder_cls = get_loader_classes(config['name'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 119, in get_loader_classes
+    return get_class(class_name, modules)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\model\Model.py", line 179, in get_class
+    raise RuntimeError(f'Unsupported dataset class: {class_name}')
+RuntimeError: Unsupported dataset class: SliceBuilder
+2023-10-02 13:11:48,658 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:11:48,659 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:11:48,660 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:11:49,775 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 342, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 228, in __init__
+    slice_builder = get_slice_builder(self.raw, self.label, self.weight_map, slice_builder_config)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 109, in get_slice_builder
+    slice_builder_cls = get_loader_classes(config['name'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\dataloader.py", line 119, in get_loader_classes
+    return get_class(class_name, modules)
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\model\Model.py", line 179, in get_class
+    raise RuntimeError(f'Unsupported dataset class: {class_name}')
+RuntimeError: Unsupported dataset class: SliceBuilder
+2023-10-02 13:16:11,286 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:16:11,287 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:16:11,288 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:16:12,225 [MainThread] INFO Dataset - Number of raw patches: 738
+2023-10-02 13:16:12,234 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:16:12,236 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:16:12,237 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:16:13,563 [MainThread] INFO Dataset - Number of raw patches: 738
+2023-10-02 13:19:03,997 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:19:03,999 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:19:04,001 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:19:05,246 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 436, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    print('raw',self.raw_slices.shape)
+AttributeError: 'list' object has no attribute 'shape'
+2023-10-02 13:19:05,287 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:19:05,290 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:19:05,291 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:19:06,384 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 436, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    print('raw',self.raw_slices.shape)
+AttributeError: 'list' object has no attribute 'shape'
+2023-10-02 13:20:17,710 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:20:17,712 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:20:17,714 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:20:18,989 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 434, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    print('raw',len(self.raw_slices),self.raw_slices[0].shape)
+AttributeError: 'tuple' object has no attribute 'shape'
+2023-10-02 13:20:19,045 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:20:19,047 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:20:19,049 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:20:20,206 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 434, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    print('raw',len(self.raw_slices),self.raw_slices[0].shape)
+AttributeError: 'tuple' object has no attribute 'shape'
+2023-10-02 13:21:39,733 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:21:39,734 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:21:39,737 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:21:41,067 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 430, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:21:41,114 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:21:41,116 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:21:41,118 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:21:42,307 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 430, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:31:41,682 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:31:41,683 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:31:41,700 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:31:43,077 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 430, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:31:43,115 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:31:43,116 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:31:43,130 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:31:44,424 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 430, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 327, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:34:31,039 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:34:31,041 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:34:31,043 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:34:35,307 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 431, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:34:35,374 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:34:35,376 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:34:35,378 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:34:41,356 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 431, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:38:37,735 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:38:37,736 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:38:37,737 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:38:39,034 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 431, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:38:39,103 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:38:39,104 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:38:39,106 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:38:40,662 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 431, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 328, in __init__
+    print('label',len(self.label_slices))#,self.label_slices[0].shape)
+TypeError: object of type 'NoneType' has no len()
+2023-10-02 13:40:50,138 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:40:50,142 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:40:50,148 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:40:51,934 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:40:51,937 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:40:51,939 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:40:51,940 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:40:53,858 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:41:59,926 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:41:59,931 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:41:59,933 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:42:01,376 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:42:01,381 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:42:01,383 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:42:01,384 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:42:03,071 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:43:57,240 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:43:57,244 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:43:57,252 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:43:58,934 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:43:58,936 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:43:58,937 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:43:58,938 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:44:01,136 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:45:46,380 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:45:46,381 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:45:46,384 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:45:47,846 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:45:47,851 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:45:47,853 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:45:47,856 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:45:49,482 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:47:11,503 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:47:11,504 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:47:11,507 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:47:12,668 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:47:12,672 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:47:12,673 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:47:12,675 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:47:14,066 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:48:13,304 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 13:48:13,308 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:48:13,317 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 13:48:15,168 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 13:48:15,172 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 13:48:15,176 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 13:48:15,181 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 13:48:17,498 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:08:38,246 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:08:38,247 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:08:38,249 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:08:39,208 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 433, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 267, in __init__
+    self.transformer = test_transform_image()
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\trans.py", line 40, in test_transform_image
+    CastToTyped(("raw"), dtype=(torch.float32, torch.float32))
+  File "D:\Python\lib\site-packages\monai\transforms\utility\dictionary.py", line 495, in __init__
+    self.dtype = ensure_tuple_rep(dtype, len(self.keys))
+  File "D:\Python\lib\site-packages\monai\utils\misc.py", line 202, in ensure_tuple_rep
+    raise ValueError(f"Sequence must have length {dim}, got {len(tup)}.")
+ValueError: Sequence must have length 1, got 2.
+2023-10-02 14:08:39,257 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:08:39,258 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:08:39,260 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:08:40,150 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 433, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 267, in __init__
+    self.transformer = test_transform_image()
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\trans.py", line 40, in test_transform_image
+    CastToTyped(("raw"), dtype=(torch.float32, torch.float32))
+  File "D:\Python\lib\site-packages\monai\transforms\utility\dictionary.py", line 495, in __init__
+    self.dtype = ensure_tuple_rep(dtype, len(self.keys))
+  File "D:\Python\lib\site-packages\monai\utils\misc.py", line 202, in ensure_tuple_rep
+    raise ValueError(f"Sequence must have length {dim}, got {len(tup)}.")
+ValueError: Sequence must have length 1, got 2.
+2023-10-02 14:10:35,567 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:10:35,568 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:10:35,570 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:10:36,717 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 434, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    self.slices = slice_builder._build_slices(dataset=input_file, patch_shape=slice_builder_config['patch_shape'],stride_shape=slice_builder_config['stride_shape'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 72, in _build_slices
+    if dataset.ndim == 4:
+AttributeError: 'File' object has no attribute 'ndim'
+2023-10-02 14:10:36,750 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:10:36,752 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:10:36,753 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:10:37,830 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 434, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    self.slices = slice_builder._build_slices(dataset=input_file, patch_shape=slice_builder_config['patch_shape'],stride_shape=slice_builder_config['stride_shape'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 72, in _build_slices
+    if dataset.ndim == 4:
+AttributeError: 'File' object has no attribute 'ndim'
+2023-10-02 14:11:35,941 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:11:35,943 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:11:35,945 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:11:37,049 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 434, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    self.slices = slice_builder._build_slices(dataset=input_file, patch_shape=slice_builder_config['patch_shape'],stride_shape=slice_builder_config['stride_shape'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 72, in _build_slices
+    if dataset.ndim == 4:
+AttributeError: 'File' object has no attribute 'ndim'
+2023-10-02 14:11:37,092 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:11:37,093 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:11:37,095 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:11:38,215 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 434, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 324, in __init__
+    self.slices = slice_builder._build_slices(dataset=input_file, patch_shape=slice_builder_config['patch_shape'],stride_shape=slice_builder_config['stride_shape'])
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 72, in _build_slices
+    if dataset.ndim == 4:
+AttributeError: 'File' object has no attribute 'ndim'
+2023-10-02 14:13:50,098 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:13:50,098 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:13:50,101 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:13:51,135 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:13:51,137 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:13:51,138 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:13:51,139 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:13:52,148 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:24:48,309 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:24:48,310 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:24:48,311 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:24:49,424 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:24:49,426 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:24:49,427 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:24:49,428 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:24:50,461 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:26:39,050 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:26:39,051 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:26:39,053 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:26:40,176 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:26:40,177 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:26:40,178 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:26:40,179 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:26:41,270 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:27:23,352 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:27:23,354 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:27:23,355 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:27:24,392 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:27:24,395 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:27:24,397 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:27:24,398 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:27:25,410 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:32:38,287 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:32:38,289 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:32:38,291 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:32:38,973 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:32:38,975 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:32:38,976 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:32:38,977 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:32:39,918 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:35:06,947 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:35:06,947 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:35:06,949 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:35:07,742 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient438.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 437, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 267, in __init__
+    self.transformer = test_transform_image()
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\trans.py", line 26, in test_transform_image
+    transform = Compose([AddChanneld(),
+  File "D:\Python\lib\site-packages\monai\utils\deprecate_utils.py", line 113, in _wrapper
+    return call_obj(*args, **kwargs)
+TypeError: AddChanneld.__init__() missing 1 required positional argument: 'keys'
+2023-10-02 14:35:07,769 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:35:07,770 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:35:07,772 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:35:08,553 [MainThread] ERROR Dataset - Skipping test set: D:/CapstoneData/test_3d/test\drf2_patient591.h5
+Traceback (most recent call last):
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 437, in create_datasets
+    dataset = cls(file_path=file_path,
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\datasets.py", line 267, in __init__
+    self.transformer = test_transform_image()
+  File "D:\1文档\Master\Capstone\AR-GAN_2dSpectrum\3DModel\data\trans.py", line 26, in test_transform_image
+    transform = Compose([AddChanneld(),
+  File "D:\Python\lib\site-packages\monai\utils\deprecate_utils.py", line 113, in _wrapper
+    return call_obj(*args, **kwargs)
+TypeError: AddChanneld.__init__() missing 1 required positional argument: 'keys'
+2023-10-02 14:38:03,559 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:38:03,560 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:38:03,561 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:38:04,621 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:38:04,623 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:38:04,624 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:38:04,625 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:38:05,646 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:39:10,333 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:39:10,334 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:39:10,335 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:39:11,371 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:39:11,375 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:39:11,376 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:39:11,377 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:39:12,380 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:41:43,139 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 14:41:43,141 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:41:43,142 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 14:41:44,197 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 14:41:44,198 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 14:41:44,199 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 14:41:44,200 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 14:41:45,317 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 15:59:14,154 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient438.h5...
+2023-10-02 15:59:14,155 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 15:59:14,157 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient438.h5
+2023-10-02 15:59:15,359 [MainThread] INFO Dataset - Number of raw patches: 136
+2023-10-02 15:59:15,362 [MainThread] INFO Dataset - Loading test set from: D:/CapstoneData/test_3d/test\drf2_patient591.h5...
+2023-10-02 15:59:15,363 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 15:59:15,364 [MainThread] INFO Dataset - get input file from D:/CapstoneData/test_3d/test\drf2_patient591.h5
+2023-10-02 15:59:16,470 [MainThread] INFO Dataset - Number of raw patches: 136

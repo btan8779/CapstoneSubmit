@@ -1,0 +1,40 @@
+2023-10-02 18:34:24,119 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5...
+2023-10-02 18:34:24,121 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:34:24,138 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5
+2023-10-02 18:34:25,178 [MainThread] INFO Dataset - Number of raw patches: 2704
+2023-10-02 18:34:25,179 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5...
+2023-10-02 18:34:25,180 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:34:25,197 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5
+2023-10-02 18:34:26,405 [MainThread] INFO Dataset - Number of raw patches: 2704
+2023-10-02 18:39:29,852 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5...
+2023-10-02 18:39:29,854 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:39:29,859 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5
+2023-10-02 18:39:30,592 [MainThread] INFO Dataset - Number of raw patches: 2704
+2023-10-02 18:39:30,593 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5...
+2023-10-02 18:39:30,594 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:39:30,595 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5
+2023-10-02 18:39:31,436 [MainThread] INFO Dataset - Number of raw patches: 2704
+2023-10-02 18:44:56,165 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5...
+2023-10-02 18:44:56,167 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:44:56,169 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5
+2023-10-02 18:44:57,141 [MainThread] INFO Dataset - Number of raw patches: 2704
+2023-10-02 18:44:57,142 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5...
+2023-10-02 18:44:57,144 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:44:57,144 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5
+2023-10-02 18:44:58,167 [MainThread] INFO Dataset - Number of raw patches: 2704
+2023-10-02 18:49:21,190 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5...
+2023-10-02 18:49:21,192 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:49:21,194 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5
+2023-10-02 18:49:22,133 [MainThread] INFO Dataset - Number of raw patches: 2584
+2023-10-02 18:49:22,134 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5...
+2023-10-02 18:49:22,135 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:49:22,137 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5
+2023-10-02 18:49:23,128 [MainThread] INFO Dataset - Number of raw patches: 2584
+2023-10-02 18:52:10,753 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5...
+2023-10-02 18:52:10,755 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:52:10,756 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient497.h5
+2023-10-02 18:52:11,699 [MainThread] INFO Dataset - Number of raw patches: 2584
+2023-10-02 18:52:11,700 [MainThread] INFO Dataset - Loading test set from: D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5...
+2023-10-02 18:52:11,701 [MainThread] INFO Dataset - copy data if data is already h5 file
+2023-10-02 18:52:11,703 [MainThread] INFO Dataset - get input file from D:\CapstoneData\test_dataset\Data_h5\test\drf2_patient589.h5
+2023-10-02 18:52:12,699 [MainThread] INFO Dataset - Number of raw patches: 2584

@@ -1,0 +1,129 @@
+#training device
+device: cuda
+
+# model configuration
+discriminator:
+  # discriminitor name
+  name: AdvNet
+  # number of input channels to the model
+  in_channels: 2
+  # number of output channels
+  out_channels: 1
+
+refine_model:
+  # model class, e.g. UNet3D, ResidualUNet3D
+  name: ARNet_or
+  # number of input channels to the model
+  in_channels: 1
+  # number of output channels
+  out_channels: 1
+
+generator:
+  # model class, e.g. UNet3D, ResidualUNet3D
+  name: PreNet
+  # number of input channels to the model
+  in_channels: 1
+  # number of output channels
+  out_channels: 1
+
+# trainer configuration
+trainer:
+  lambda_content_prenet: 10
+  lambda_content_arnet: 10
+  lambda_spectrum: 100
+  # path to the checkpoint directory
+  checkpoint_dir: '/mnt/HDD3/btan8779/checkpoint/final_result/2D/with_spect'
+  # path to latest checkpoint; if provided the training will be resumed from that checkpoint
+  resume: null
+  # path to the best_checkpoint.pytorch; to be used for fine-tuning the model with additional ground truth
+  # make sure to decrease the learning rate in the optimizer config accordingly
+  pre_trained: null
+  # how many iterations between validations
+  validate_after_iters: 1000
+  # how many iterations between tensorboard logging
+  log_after_iters: 100
+  # max number of epoc0hs
+  max_num_epochs: 50
+  # max number of iterations
+  max_num_iterations: 10000000000000000
+  # model with higher eval score is considered better
+  eval_score_higher_is_better: false
+
+# optimizer configuration
+optimizer:
+  # initial learning rate
+  learning_rate: 0.0002
+  # weight decay
+  weight_decay: 0.00001
+# learning rate optimize scheduler
+lr_scheduler:
+  # reduce learning rate when evaluation metric plateaus
+  name: ReduceLROnPlateau
+  # use 'max' if eval_score_higher_is_better=True, 'min' otherwise
+  mode: min
+  # factor by which learning rate will be reduced
+  factor: 0.1
+  # number of *validation runs* with no improvement after which learning rate will be reduced
+  patience: 5
+
+  decay_lr_eopch: 30
+# data loaders configuration
+loaders:
+  # class of the HDF5 dataset, currently StandardHDF5Dataset and LazyHDF5Dataset are supported.
+  dataset: H5Dataset
+  # batch dimension; if number of GPUs is N > 1, then a batch_size of N * batch_size will automatically be taken for DataParallel
+  batch_size: 4
+  # how many subprocesses to use for data loading
+  num_workers: 4
+  # path to the raw data within the H5
+  raw_internal_path: raw
+  # path to the the label data within the H5
+  label_internal_path: label
+  # path to the pixel-wise weight map withing the H5 if present
+  weight_internal_path: null
+  # configuration of the train loader
+  train:
+    # absolute paths to the training datasets; if a given path is a directory all H5 files ('*.h5', '*.hdf', '*.hdf5', '*.hd5')
+    # inside this this directory will be included as well (non-recursively)
+    file_paths:
+      - '/mnt/HDD3/btan8779/CapstoneData/dataset_100/2D/2d_all/train'
+#      - '/mnt/HDD3/yoma6689/btan8779/CapstoneData/Data/test_2d/train/'
+#      - '/mnt/HDD3/btan8779/CapstoneData/2d_subset_drf/drf50/train'
+#      - '/mnt/HDD3/btan8779/CapstoneData/drf_2d_siemens/drf100/train'
+#        - 'D:\CapstoneData\test_dataset\Data_h5\train'
+    transform: transform_2d_image
+
+
+
+  # configuration of the validation loaders
+  val:
+    # paths to the validation datasets; if a given path is a directory all H5 files ('*.h5', '*.hdf', '*.hdf5', '*.hd5')
+    # inside this this directory will be included as well (non-recursively)
+    file_paths:
+      - '/mnt/HDD3/btan8779/CapstoneData/dataset_100/2D/2d_all/val'
+#      - '/mnt/HDD3/yoma6689/btan8779/CapstoneData/Data/test_2d/val'
+#      - '/mnt/HDD3/btan8779/CapstoneData/drf_2d_siemens/drf100/val'
+#      -  '/mnt/HDD3/btan8779/CapstoneData/2d_subset_drf/drf50/val'
+#        - 'D:\CapstoneData\test_dataset\Data_h5\val'
+    # transformer:
+    #   - name: ToTensor
+    #   - name: AddChannel
+    #   - name: Resize
+    #     size: (128,128)
+    transform: transform_2d_image
+    # no data augmentation during validation
+    # transformer:
+    #   raw:
+    #     # apply min-max scaling and map the input to [-1, 1]
+    #     # - name: Normalize
+    #     #   min_value: -1.0
+    #     #   max_value: 1.0
+    #     - name: ToTensor
+    #       expand_dims: true
+    #   label:
+    #     # apply min-max scaling and map the input to [-1, 1]
+    #     # - name: Normalize
+    #     #   min_value: -1.0
+    #     #   max_value: 1.0
+    #     - name: ToTensor
+    #       expand_dims: true

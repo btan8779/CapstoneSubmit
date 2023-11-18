@@ -1,0 +1,5 @@
+2023-10-14 14:45:27,770 [MainThread] INFO Trainer - Sending the model to 'cpu'
+2023-10-14 14:45:33,611 [MainThread] INFO Trainer - the learning rate config of learning rate schedule is {'name': 'ReduceLROnPlateau', 'mode': 'min', 'factor': 0.1, 'patience': 5, 'decay_lr_eopch': 30}
+2023-10-14 14:45:33,613 [MainThread] INFO Trainer - eval_score_higher_is_better: False
+2023-10-14 14:45:33,614 [MainThread] INFO Trainer - check_dir:D:/CapstoneData/checkpoint/DRF_TRY
+2023-10-14 14:45:33,626 [MainThread] INFO Trainer - finish the summarywriter
